@@ -4,26 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>This is Me!</title>
-
-        <style>
-            header {
-                background-color: black;
-                color: white;
-            }
-
-            h1 {
-                text-decoration: underline;
-            }
-
-            .boldText {
-                font-weight: bold;
-            }
-
-            #myName {
-                color: aqua;
-            }
-
-        </style>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
 
     <body>
@@ -32,19 +13,21 @@
         <h1>Student Bio</h1>
         </header>
 
-        <div>
+        <div class="container">
 
-        <section>
+        <section id="main-bio">
+            
         <h2 id="myName">Cynthia Garcia</h2>
 
-        <img src="https://placehold.it/200x200"
+        <img id="bio-image"
+        src="https://placehold.it/200x200"
         alt="Cynthia Garcia">
 
         <p>Placeholder text. Paragraph about self.</p>
 
         </section>
 
-        <section>
+        <section id="contact-info">
 
         <h2>Contact Info</h2>
         <p class="boldText">Below are a few links to contact me!</p>
